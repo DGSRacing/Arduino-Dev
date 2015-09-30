@@ -1,2 +1,3 @@
 #Arduino Dev
-All the development for the arduino software.
+All the development for the arduino software
+Software developed under open source.
