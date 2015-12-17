@@ -23,7 +23,7 @@ void setup()
   size(1000,700);
   frameRate(6000);
   
-  dataPort = new Serial(this, Serial.list()[0], 9600);
+  dataPort = new Serial(this, Serial.list()[1], 9600);
   
   imgDialVO = loadImage("DialVO.jpg");
   imgDialRG = loadImage("DialRG.jpg");
