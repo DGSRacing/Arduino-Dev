@@ -101,10 +101,10 @@ void update()
               if (isNumber(inputs[i].substring(1)))
                 rpmDial.addData(Long.parseLong(inputs[i].substring(1)));
               break;
-            case 'I':
+            /*case 'I':
               if (isNumber(inputs[i].substring(1)))
                 currentDial.addData(Long.parseLong(inputs[i].substring(1)));
-              break;
+              break;*/
             case 'v':
               if (isNumber(inputs[i].substring(1)))
                 voltage1Dial.addData(Long.parseLong(inputs[i].substring(1)));
