@@ -23,7 +23,7 @@ void setup()
   size(1000,700);
   frameRate(6000);
   
-  dataPort = new Serial(this, Serial.list()[1], 9600);
+  dataPort = new Serial(this, Serial.list()[1], 9600); /* The Number to your left finds all avaiable com ports (open ones), and trys to connect to which one, currently this is set on the second one */
   
   imgDialVO = loadImage("DialVO.jpg");
   imgDialRG = loadImage("DialRG.jpg");
